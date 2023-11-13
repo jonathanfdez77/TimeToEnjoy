@@ -15,6 +15,9 @@ function App() {
   // variables de estado
   const [movies, setMovies] = useState([]);
   const [searchKey, setSearchKey] = useState("");
+  // Agrega estos estados al comienzo de tu componente App.js
+  const [favoriteMovies, setFavoriteMovies] = useState([]);
+  const [isInFavorites, setIsInFavorites] = useState(false);
   //const [selectedMovie, setSelectedMovie] = useState({})
   const [trailer, setTrailer] = useState(null);
   const [movie, setMovie] = useState({ title: "Loading Movies" });
@@ -77,6 +80,25 @@ function App() {
     fetchMovies(searchKey);
   };
 
+  // Función para agregar una película a la lista de favoritos
+  const addToFavorites = () => {
+    if (!isInFavorites) {
+      setFavoriteMovies((prevFavorites) => [...prevFavorites, movie]);
+      setIsInFavorites(true);
+    }
+  };
+
+  // Función para eliminar una película de la lista de favoritos
+  const removeFromFavorites = () => {
+    if (isInFavorites) {
+      const updatedFavorites = favoriteMovies.filter(
+        (favorite) => favorite.id !== movie.id
+      );
+      setFavoriteMovies(updatedFavorites);
+      setIsInFavorites(false);
+    }
+  };
+
   useEffect(() => {
     fetchMovies();
   }, []);
@@ -84,18 +106,19 @@ function App() {
   return (
     <div className="Body">
       <div className="Head">
-        <h2 className="text-center mt-0 mb-10">MovieTime</h2>
-        {/*Buscador*/}
-        <form className="container mb-4" onSubmit={searchMovies}>
+        <h2 className="mt-0 mb-10">MovieTime</h2>
+        {/* Buscador */}
+        <form className="container search-form" onSubmit={searchMovies}>
           <input
             type="text"
-            placeholder="search"
+            placeholder="Search"
             onChange={(e) => setSearchKey(e.target.value)}
           />
-          <button className="btn btn-primary">Search</button>
+          <button className="btn btn-primary" type="submit">
+            Search
+          </button>
         </form>
       </div>
-
       {/* contenedor para previsualizar  */}
       <div>
         <main>
@@ -135,13 +158,31 @@ function App() {
                 <div className="container">
                   <div className="">
                     {trailer ? (
-                      <button
-                        className="boton"
-                        onClick={() => setPlaying(true)}
-                        type="button"
-                      >
-                        Play Trailer
-                      </button>
+                      <>
+                        <button
+                          className="boton"
+                          onClick={() => setPlaying(true)}
+                          type="button"
+                        >
+                          Play Trailer
+                        </button>
+                        <button
+                          className="boton"
+                          onClick={addToFavorites}
+                          type="button"
+                          disabled={isInFavorites}
+                        >
+                          Add to Favorites
+                        </button>
+                        <button
+                          className="boton"
+                          onClick={removeFromFavorites}
+                          type="button"
+                          disabled={!isInFavorites}
+                        >
+                          Remove from Favorites
+                        </button>
+                      </>
                     ) : (
                       "Sorry, no trailer available"
                     )}
@@ -154,10 +195,9 @@ function App() {
           ) : null}
         </main>
       </div>
-
       {/*Contenedor que va a mostrar posters de las peliculas actuales*/}
       <div className="Footer">
-        <div className="container mt-3">
+        <div className="container mt-1">
           <div className="row">
             {movies.map((movie) => (
               <div
@@ -174,6 +214,22 @@ function App() {
                 <h4 className="text-center">{movie.title}</h4>
               </div>
             ))}
+            <div className="Favorites">
+              <h2>Favorites</h2>
+              <div className="row">
+                {favoriteMovies.map((favorite) => (
+                  <div key={favorite.id} className="col-md-4 mb-3">
+                    <img
+                      src={`${URL_IMAGE + favorite.poster_path}`}
+                      alt=""
+                      height={600}
+                      width="100%"
+                    />
+                    <h4 className="text-center">{favorite.title}</h4>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </div>
