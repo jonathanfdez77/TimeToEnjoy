@@ -35,6 +35,16 @@
   font-size: 2rem;
 }
 
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px; /* Ajusta la altura del logo según tus necesidades */
+  margin-right: 10px; /* Ajusta el margen derecho según tus necesidades */
+}
+
 .search-form {
   display: flex;
   align-items: center;

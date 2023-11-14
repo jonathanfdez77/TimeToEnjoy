@@ -106,7 +106,10 @@ function App() {
   return (
     <div className="Body">
       <div className="Head">
-        <h2 className="mt-0 mb-10">MovieTime</h2>
+        <div className="logo-container">
+          <img src="/public/img/tmovie.png" alt="MovieTime Logo" className="logo" />
+          <h2 className="mt-0 mb-10">MovieTime</h2>
+        </div>
         {/* Buscador */}
         <form className="container search-form" onSubmit={searchMovies}>
           <input

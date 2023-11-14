@@ -1,0 +1,237 @@
+[
+    {
+      "titulo": "Inception",
+      "descripcion": "Un ladrón especializado en el robo de secretos corporativos se ve envuelto en un mundo de sueños y realidad.",
+      "poster": "url_del_poster_inception.jpg",
+      "trailer": "url_del_trailer_inception"
+    },
+    {
+      "titulo": "The Shawshank Redemption",
+      "descripcion": "La historia de un hombre inocente que es enviado a prisión y su increíble amistad con un compañero de celda.",
+      "poster": "url_del_poster_shawshank_redemption.jpg",
+      "trailer": "url_del_trailer_shawshank_redemption"
+    },
+    {
+      "titulo": "Pulp Fiction",
+      "descripcion": "Varias historias entrelazadas sobre el crimen, la redención y la violencia en Los Ángeles.",
+      "poster": "url_del_poster_pulp_fiction.jpg",
+      "trailer": "url_del_trailer_pulp_fiction"
+    },
+    {
+        "titulo": "The Dark Knight",
+        "descripcion": "Batman se enfrenta al Joker, un criminal psicópata que busca sumir Gotham City en el caos.",
+        "director": "Christopher Nolan",
+        "reparto": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
+        "poster": "url_del_poster_the_dark_knight.jpg",
+        "trailer": "url_del_trailer_the_dark_knight"
+      },
+      {
+        "titulo": "Forrest Gump",
+        "descripcion": "La vida de un hombre con discapacidad intelectual que vive una vida llena de eventos extraordinarios.",
+        "director": "Robert Zemeckis",
+        "reparto": ["Tom Hanks", "Robin Wright", "Gary Sinise"],
+        "poster": "url_del_poster_forrest_gump.jpg",
+        "trailer": "url_del_trailer_forrest_gump"
+      },
+      {
+        "titulo": "Inglourious Basterds",
+        "descripcion": "Un grupo de soldados judíos estadounidenses intenta asesinar a líderes nazis durante la Segunda Guerra Mundial.",
+        "director": "Quentin Tarantino",
+        "reparto": ["Brad Pitt", "Diane Kruger", "Christoph Waltz"],
+        "poster": "url_del_poster_inglourious_basterds.jpg",
+        "trailer": "url_del_trailer_inglourious_basterds"
+      },
+      {
+        "titulo": "The Shawshank Redemption",
+        "descripcion": "La historia de un hombre inocente que es enviado a prisión y su increíble amistad con un compañero de celda.",
+        "director": "Frank Darabont",
+        "reparto": ["Tim Robbins", "Morgan Freeman", "Bob Gunton"],
+        "poster": "url_del_poster_shawshank_redemption.jpg",
+        "trailer": "url_del_trailer_shawshank_redemption"
+      },
+      {
+        "titulo": "The Godfather",
+        "descripcion": "El patriarca de una poderosa familia criminal transfiere el control del imperio a su hijo más joven.",
+        "director": "Francis Ford Coppola",
+        "reparto": ["Marlon Brando", "Al Pacino", "James Caan"],
+        "poster": "url_del_poster_the_godfather.jpg",
+        "trailer": "url_del_trailer_the_godfather"
+      },
+      {
+        "titulo": "The Matrix",
+        "descripcion": "Un hacker descubre la verdad sobre la realidad y se une a una rebelión contra las máquinas.",
+        "director": "The Wachowskis",
+        "reparto": ["Keanu Reeves", "Laurence Fishburne", "Carrie-Anne Moss"],
+        "poster": "url_del_poster_the_matrix.jpg",
+        "trailer": "url_del_trailer_the_matrix"
+      },
+      {
+        "titulo": "Titanic",
+        "descripcion": "El romance épico entre dos pasajeros del Titanic se desarrolla mientras el barco se hunde.",
+        "director": "James Cameron",
+        "reparto": ["Leonardo DiCaprio", "Kate Winslet", "Billy Zane"],
+        "poster": "url_del_poster_titanic.jpg",
+        "trailer": "url_del_trailer_titanic"
+      },
+      {
+        "titulo": "Jurassic Park",
+        "descripcion": "Un parque de atracciones con dinosaurios reales se sale de control, poniendo en peligro a los visitantes.",
+        "director": "Steven Spielberg",
+        "reparto": ["Sam Neill", "Laura Dern", "Jeff Goldblum"],
+        "poster": "url_del_poster_jurassic_park.jpg",
+        "trailer": "url_del_trailer_jurassic_park"
+      },
+      {
+        "titulo": "The Social Network",
+        "descripcion": "La historia del surgimiento de Facebook y las complejidades de las relaciones entre los fundadores.",
+        "director": "David Fincher",
+        "reparto": ["Jesse Eisenberg", "Andrew Garfield", "Justin Timberlake"],
+        "poster": "url_del_poster_the_social_network.jpg",
+        "trailer": "url_del_trailer_the_social_network"
+      },
+      {
+        "titulo": "Avatar",
+        "descripcion": "En un planeta alienígena, un ex-marine se ve envuelto en un conflicto entre colonizadores humanos y nativos.",
+        "director": "James Cameron",
+        "reparto": ["Sam Worthington", "Zoe Saldana", "Sigourney Weaver"],
+        "poster": "url_del_poster_avatar.jpg",
+        "trailer": "url_del_trailer_avatar"
+      },
+      {
+        "titulo": "The Silence of the Lambs",
+        "descripcion": "Una agente del FBI busca la ayuda de un brillante pero peligroso psiquiatra para atrapar a un asesino en serie.",
+        "director": "Jonathan Demme",
+        "reparto": ["Jodie Foster", "Anthony Hopkins", "Scott Glenn"],
+        "poster": "url_del_poster_silence_of_the_lambs.jpg",
+        "trailer": "url_del_trailer_silence_of_the_lambs"
+      },
+      {
+        "titulo": "Eternal Sunshine of the Spotless Mind",
+        "descripcion": "Una pareja decide borrar los recuerdos de su tumultuosa relación, pero el proceso revela verdades inesperadas.",
+        "director": "Michel Gondry",
+        "reparto": ["Jim Carrey", "Kate Winslet", "Elijah Wood"],
+        "poster": "url_del_poster_eternal_sunshine.jpg",
+        "trailer": "url_del_trailer_eternal_sunshine"
+      },
+      {
+        "titulo": "The Grand Budapest Hotel",
+        "descripcion": "Un conserje y su joven protegido se involucran en un robo y una persecución tras la muerte de un adinerado huésped.",
+        "director": "Wes Anderson",
+        "reparto": ["Ralph Fiennes", "Tony Revolori", "Adrien Brody"],
+        "poster": "url_del_poster_budapest_hotel.jpg",
+        "trailer": "url_del_trailer_budapest_hotel"
+      },
+      {
+        "titulo": "Interstellar",
+        "descripcion": "Un grupo de astronautas emprende un viaje interestelar en busca de un nuevo hogar para la humanidad.",
+        "director": "Christopher Nolan",
+        "reparto": ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain"],
+        "poster": "url_del_poster_interstellar.jpg",
+        "trailer": "url_del_trailer_interstellar"
+      },
+      {
+        "titulo": "The Avengers",
+        "descripcion": "Superhéroes se unen para enfrentarse a una amenaza que pone en peligro al mundo entero.",
+        "director": "Joss Whedon",
+        "reparto": ["Robert Downey Jr.", "Chris Evans", "Scarlett Johansson"],
+        "poster": "url_del_poster_the_avengers.jpg",
+        "trailer": "url_del_trailer_the_avengers"
+      },
+      {
+        "titulo": "La La Land",
+        "descripcion": "Una historia de amor entre un pianista y una aspirante a actriz en la ciudad de Los Ángeles.",
+        "director": "Damien Chazelle",
+        "reparto": ["Ryan Gosling", "Emma Stone", "John Legend"],
+        "poster": "url_del_poster_la_la_land.jpg",
+        "trailer": "url_del_trailer_la_la_land"
+      },
+      {
+        "titulo": "The Revenant",
+        "descripcion": "Un hombre herido lucha por sobrevivir en condiciones extremas después de ser abandonado por su equipo.",
+        "director": "Alejandro G. Iñárritu",
+        "reparto": ["Leonardo DiCaprio", "Tom Hardy", "Domhnall Gleeson"],
+        "poster": "url_del_poster_the_revenant.jpg",
+        "trailer": "url_del_trailer_the_revenant"
+      },
+      {
+        "titulo": "Gravity",
+        "descripcion": "Dos astronautas quedan a la deriva en el espacio después de un accidente durante una misión.",
+        "director": "Alfonso Cuarón",
+        "reparto": ["Sandra Bullock", "George Clooney"],
+        "poster": "url_del_poster_gravity.jpg",
+        "trailer": "url_del_trailer_gravity"
+      },
+      {
+        "titulo": "The Departed",
+        "descripcion": "Un policía encubierto y un infiltrado en la mafia intentan descubrir la identidad del otro.",
+        "director": "Martin Scorsese",
+        "reparto": ["Leonardo DiCaprio", "Matt Damon", "Jack Nicholson"],
+        "poster": "url_del_poster_the_departed.jpg",
+        "trailer": "url_del_trailer_the_departed"
+      },
+      {
+        "titulo": "The Imitation Game",
+        "descripcion": "La historia del genio matemático Alan Turing y su contribución crucial durante la Segunda Guerra Mundial.",
+        "director": "Morten Tyldum",
+        "reparto": ["Benedict Cumberbatch", "Keira Knightley"],
+        "poster": "url_del_poster_imitation_game.jpg",
+        "trailer": "url_del_trailer_imitation_game"
+      },
+      {
+        "titulo": "The Shape of Water",
+        "descripcion": "Una empleada de limpieza en un laboratorio de alta seguridad se enamora de una criatura acuática única.",
+        "director": "Guillermo del Toro",
+        "reparto": ["Sally Hawkins", "Michael Shannon", "Octavia Spencer"],
+        "poster": "url_del_poster_shape_of_water.jpg",
+        "trailer": "url_del_trailer_shape_of_water"
+      },
+      {
+        "titulo": "Fight Club",
+        "descripcion": "Un hombre desilusionado forma un club secreto donde los hombres pueden liberar sus frustraciones a través de peleas.",
+        "director": "David Fincher",
+        "reparto": ["Brad Pitt", "Edward Norton", "Helena Bonham Carter"],
+        "poster": "url_del_poster_fight_club.jpg",
+        "trailer": "url_del_trailer_fight_club"
+      },
+      {
+        "titulo": "Black Panther",
+        "descripcion": "El príncipe T'Challa asume el trono de Wakanda y debe enfrentarse a desafíos que amenazan la paz de su nación.",
+        "director": "Ryan Coogler",
+        "reparto": ["Chadwick Boseman", "Michael B. Jordan", "Lupita Nyong'o"],
+        "poster": "url_del_poster_black_panther.jpg",
+        "trailer": "url_del_trailer_black_panther"
+      },
+      {
+        "titulo": "Blade Runner 2049",
+        "descripcion": "Un 'blade runner' descubre un secreto que podría sumir a la sociedad en el caos, llevándolo a buscar a un antiguo blade runner desaparecido.",
+        "director": "Denis Villeneuve",
+        "reparto": ["Ryan Gosling", "Harrison Ford", "Ana de Armas"],
+        "poster": "url_del_poster_blade_runner_2049.jpg",
+        "trailer": "url_del_trailer_blade_runner_2049"
+      },
+      {
+        "titulo": "The Great Gatsby",
+        "descripcion": "La adaptación de la novela clásica de F. Scott Fitzgerald que explora la alta sociedad de la década de 1920 en Nueva York.",
+        "director": "Baz Luhrmann",
+        "reparto": ["Leonardo DiCaprio", "Carey Mulligan", "Joel Edgerton"],
+        "poster": "url_del_poster_great_gatsby.jpg",
+        "trailer": "url_del_trailer_great_gatsby"
+      },
+      {
+        "titulo": "The Martian",
+        "descripcion": "Un astronauta queda varado en Marte y lucha por sobrevivir mientras la NASA trabaja para rescatarlo.",
+        "director": "Ridley Scott",
+        "reparto": ["Matt Damon", "Jessica Chastain", "Kristen Wiig"],
+        "poster": "url_del_poster_the_martian.jpg",
+        "trailer": "url_del_trailer_the_martian"
+      },
+      {
+        "titulo": "The Grandmaster",
+        "descripcion": "La historia de vida del legendario maestro de kung fu, Ip Man, y su papel durante la ocupación japonesa de China.",
+        "director": "Wong Kar-wai",
+        "reparto": ["Tony Leung", "Zhang Ziyi", "Chang Chen"],
+        "poster": "url_del_poster_the_grandmaster.jpg",
+        "trailer": "url_del_trailer_the_grandmaster"
+      }
+  ]
+  
