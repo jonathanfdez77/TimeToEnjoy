@@ -38,6 +38,11 @@
 .logo-container {
   display: flex;
   align-items: center;
+  cursor: pointer; /* Cambia el cursor cuando está sobre el contenedor */
+}
+
+.logo-container:hover {
+  transform: translateY(3px); /* Efecto de escala al pasar el ratón sobre el contenedor */
 }
 
 .logo {
