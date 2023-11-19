@@ -107,7 +107,7 @@ function App() {
     <div className="Body">
       <div className="Head">
         <div className="logo-container">
-          <img src="/public/img/tmovie.png" alt="MovieTime Logo" className="logo" />
+          <img src="/img/tmovie.png" alt="MovieTime Logo" className="logo" />
           <h2 className="mt-0 mb-10">MovieTime</h2>
         </div>
         {/* Buscador */}
